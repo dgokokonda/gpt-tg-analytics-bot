@@ -41,7 +41,8 @@ GIGA_AUTH=ваш_giga_auth
 TG_BOT_KEY=ваш_токен_бота
 ```
 
-`API_ID` и `API_HASH` берутся на [my.telegram.org](https://my.telegram.org).  
+`API_ID` и `API_HASH` берутся на [my.telegram.org](https://my.telegram.org).
+
 `TG_BOT_KEY` — токен от [@BotFather](https://t.me/botfather).
 
 `TG_SESSION` заполнится автоматически после первого запуска авторизации (см. пункт 3).
