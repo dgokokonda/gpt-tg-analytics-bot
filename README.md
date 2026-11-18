@@ -42,9 +42,11 @@ TG_BOT_KEY=ваш_токен_бота
 ```
 
 `API_ID` и `API_HASH` берутся на [my.telegram.org](https://my.telegram.org).  
-`TG_BOT_KEY` — токен от [@BotFather](https://t.me/botfather).  
+`TG_BOT_KEY` — токен от [@BotFather](https://t.me/botfather).
+
 `TG_SESSION` заполнится автоматически после первого запуска авторизации (см. пункт 3).
-`CLIENT_ID`, `CLIENT_SECRET`, `GIGA_AUTH` - берутся из GigaChat с авторизацией через Sber ID.
+
+`CLIENT_ID`, `CLIENT_SECRET`, `GIGA_AUTH` берутся из GigaChat с авторизацией через Sber ID.
 
 ### 3. Авторизуйтесь (один раз)
 
@@ -67,7 +69,7 @@ node main.js
 ```
 
 Бот подключится к вашему аккаунту и начнёт ждать команды.  
-Бот должен быть админом одного из ваших тг каналов, чтобы получать по ним краткую сводку.
+Бот должен быть админом одного из ваших тг каналов, чтобы получать по ним краткую сводку.  
 Напишите боту в Telegram по его username (тот, что регистрировали через @BotFather):
 
 - `/watch @имя_канала`
